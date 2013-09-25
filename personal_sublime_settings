@@ -1,0 +1,42 @@
+# Settings (User)
+
+{
+  "default_line_ending": "LF",
+  "detect_indentation": true,
+  "font_size": 17,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "indent_to_bracket": false,
+  "rulers":
+  [
+    80
+  ],
+  "show_full_path": true,
+  "smart_indent": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_automatic_white_space": true,
+  "trim_trailing_white_space_on_save": true
+}
+
+# KeyBindings (User)
+
+[
+  { "keys": ["alt+shift+r"], "command": "reveal_in_side_bar"}
+]
+
+# Rails Project Settings
+
+{
+  "folders":
+  [
+    {
+      "follow_symlinks": true,
+      "path": PATH_TO_APP,
+      "file_exclude_patterns": ["Capfile", "config.ru" ,"Gemfile.lock", ".*"],
+      "folder_exclude_patterns": [".*", "script", "doc", "test", "tmp",
+        "public", "log", "coverage", "styleguide", "turbulence"]
+    }
+  ]}
