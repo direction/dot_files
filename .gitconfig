@@ -1,0 +1,46 @@
+[include]
+  path = ~/.gitconfig.d/pairs
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+
+[alias]
+  st = status
+  di = diff
+  dc = diff --cached
+  co = checkout
+  ci = commit
+  cm = commit -m
+  b = branch
+  pr = pull --rebase
+  rc = rebase --continue
+  unstage = reset HEAD --
+
+[color "status"]
+  added = green
+  changed = red
+
+[core]
+  legacyheaders = false
+  autocrlf = input
+  safecrlf = false
+
+[interactive]
+  singlekey = true
+
+[push]
+  default = tracking
+
+[rebase]
+  autosquash = true
+	stat = true
+[branch]
+	autosetuprebase = always
+[include]
+  path = ~/.personal_gitconfig
+[credential]
+	helper = osxkeychain
+[http]
+	sslVerify = false

@@ -1,0 +1,2 @@
+---
+BUNDLE_BUILD__GEOIP_CITY: --with-geoip-dir=/opt/GeoIP
