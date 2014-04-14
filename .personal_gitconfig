@@ -2,7 +2,7 @@
 	pretty = "Commit:  %C(yellow)%H%nAuthor:  %C(green)%aN <%aE>%nDate:    (%C(red)%ar%Creset) %ai%nSubject: %s%n%n%b"
 
 [core]
-  editor = "/usr/bin/subl -n -w"
+  editor = atom --wait
 
 [include]
   path = ~/dot_files/user_gitconfig
