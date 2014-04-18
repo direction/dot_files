@@ -34,6 +34,5 @@ prompt
 export EDITOR="atom --wait"
 export VISUAL=$EDITOR
 
-alias clean_merged_branches="git branch -r --merged | grep -v master | sed 's/origin\///' | xargs git branch -D"
+alias gclean="~/dot_files/cleanup_pruned_branches"
 alias cap='bundle exec cap'
-# rvm use ruby-2.0.0-p247
