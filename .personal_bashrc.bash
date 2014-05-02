@@ -31,7 +31,7 @@ function prompt {
 
 prompt
 
-export EDITOR="atom --wait"
+export EDITOR="subl --wait"
 export VISUAL=$EDITOR
 
 alias gclean="~/dot_files/cleanup_pruned_branches"
