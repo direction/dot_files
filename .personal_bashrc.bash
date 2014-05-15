@@ -27,6 +27,7 @@ function prompt {
   local WHITEBOLD="\[\033[1;37m\]"
   local RESET="\[\033[1;37m\]"
   export PS1="$YELLOW\t $GREEN\u $BLUEBOLD\w$CYAN\$(__git_ps1) \\n$RED\342\235\244 $WHITE "
+  export PROMPT_COMMAND='echo -ne "\033]0;$PWD\007"'
 }
 
 prompt
@@ -35,4 +36,6 @@ export EDITOR="subl --wait"
 export VISUAL=$EDITOR
 
 alias gclean="~/dot_files/cleanup_pruned_branches"
-alias cap='bundle exec cap'
+alias cap='be cap'
+alias rake='be rake'
+alias guard='be guard -i'
