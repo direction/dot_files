@@ -39,3 +39,5 @@ alias gclean="~/dot_files/cleanup_pruned_branches"
 alias cap='be cap'
 alias rake='be rake'
 alias guard='be guard -i'
+
+export PATH=$PATH:/usr/local/activator
