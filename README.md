@@ -6,12 +6,11 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 ```
 
 ```
-ln -s dot_files/.bundle_config ./bundle/config
-ln -s dot_files/.bashrc .bashrc
-ln -s dot_files/.bash_profile .bash_profile
-ln -s dot_files/.bash .bash
-ln -s dot_files/.personal_bashrc.bash  .personal_bashrc.bash
-ln -s dot_files/.personal_gitconfig .personal_gitconfig
-ln -s dot_files/.gitconfig .gitconfig
-ln -s dot_files/.irbrc .irbrc
+cp -r <WORKING DIRECTORY>/dot_files/.bash <HOME DIRECTORY>/.bash
+cp <WORKING DIRECTORY>/dot_files/.bashrc <HOME DIRECTORY>/.bashrc
+cp <WORKING DIRECTORY>/dot_files/.bash_profile <HOME DIRECTORY>/.bash_profile
+cp <WORKING DIRECTORY>/dot_files/.personal_bashrc<HOME DIRECTORY>/.bash  .personal_bashrc.bash
+cp <WORKING DIRECTORY>/dot_files/.personal_gitconfig <HOME DIRECTORY>/.personal_gitconfig
+cp <WORKING DIRECTORY>/dot_files/.gitconfig <HOME DIRECTORY>/.gitconfig
+cp <WORKING DIRECTORY>/dot_files/.irbrc <HOME DIRECTORY>/.irbrc
 ```
