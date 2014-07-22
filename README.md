@@ -6,9 +6,7 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 ```
 
 ```
-ln -s .bashrc dot_files/.bashrc
-ln -s ~/dot_files/.bundle_config ./bundle/config
-
+ln -s dot_files/.bundle_config ./bundle/config
 ln -s dot_files/.bashrc .bashrc
 ln -s dot_files/.bash_profile .bash_profile
 ln -s dot_files/.bash .bash
