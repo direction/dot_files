@@ -1,7 +1,6 @@
 . ~/.bash/completion/git-completion.bash
 . ~/.bash/config
 . ~/.bash/aliases
-. ~/.bash/functions
 
 test -f ~/.localrc  && . ~/.localrc
 

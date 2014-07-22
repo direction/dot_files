@@ -8,16 +8,6 @@ alias du="du -h"
 alias grep="grep --color=auto"
 
 alias ws="cd ~/workspace"
-alias haw="cd ~/workspace/howaboutwe"
-alias coup="cd ~/workspace/couples"
-alias bob="cd ~/workspace/bob"
-alias cr="cd ~/workspace/chef-repo"
-alias cdh="cd ~/workspace/howaboutwe"
-alias cdc="cd ~/workspace/couples"
-alias cdm='cd ~/workspace/couples-models'
-alias cda='cd ~/workspace/couples-api'
-alias cdhc="cd ~/workspace/chef-repo"
-alias cdcc="cd ~/workspace/couples-chef"
 
 alias sc="script/console"
 alias db="script/dbconsole"
@@ -41,7 +31,6 @@ alias gp="git push"
 alias gb="git branch"
 alias gwc="git whatchanged -p --abbrev-commit --pretty=medium"
 alias ggn="git grep -n"
-alias gdp='git diff `curl http://couples.howaboutwe.com/revision`'
 
 alias cfocus="bundle exec cucumber features/ --tags @focus"
 alias rfocus="bundle exec rspec spec/ -t focus"
