@@ -1,9 +1,18 @@
 dot_files
 =========
-Install sublime text 3 (http://www.sublimetext.com/3)
+
+### Install sublime text 3
+
+http://www.sublimetext.com/3
 ```
 mkdir -p ~/bin && ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 ```
+
+Add the personal_sublime_settings section `Settings (User)` in to the personal settings json
+Add the personal_sublime_settings section `KeyBindings (User)` in to the keybinds settings json
+Add the personal_sublime_settings section `Rails Project Settings` for individual project settings (supported for Rails)
+
+### Move the dot files
 
 ```
 cp -r <WORKING DIRECTORY>/dot_files/.bash <HOME DIRECTORY>/.bash
@@ -15,8 +24,7 @@ cp <WORKING DIRECTORY>/dot_files/.gitconfig <HOME DIRECTORY>/.gitconfig
 cp <WORKING DIRECTORY>/dot_files/.irbrc <HOME DIRECTORY>/.irbrc
 ```
 
-Create a global gitignore
-
+### Create a global gitignore
 
 https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
 
