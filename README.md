@@ -9,7 +9,9 @@ mkdir -p ~/bin && ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/b
 ```
 
 Add the personal_sublime_settings section `Settings (User)` in to the personal settings json
+
 Add the personal_sublime_settings section `KeyBindings (User)` in to the keybinds settings json
+
 Add the personal_sublime_settings section `Rails Project Settings` for individual project settings (supported for Rails)
 
 ### Move the dot files
@@ -18,7 +20,7 @@ Add the personal_sublime_settings section `Rails Project Settings` for individua
 cp -r <WORKING DIRECTORY>/dot_files/.bash <HOME DIRECTORY>/.bash
 cp <WORKING DIRECTORY>/dot_files/.bash_profile <HOME DIRECTORY>/.bash_profile
 cp <WORKING DIRECTORY>/dot_files/.bashrc <HOME DIRECTORY>/.bashrc
-cp <WORKING DIRECTORY>/dot_files/.personal_bashrc<HOME DIRECTORY>/.bash  .personal_bashrc.bash
+cp <WORKING DIRECTORY>/dot_files/.personal_bashrc <HOME DIRECTORY>/.bash/.personal_bashrc.bash
 cp <WORKING DIRECTORY>/dot_files/.personal_gitconfig <HOME DIRECTORY>/.personal_gitconfig
 cp <WORKING DIRECTORY>/dot_files/.gitconfig <HOME DIRECTORY>/.gitconfig
 cp <WORKING DIRECTORY>/dot_files/.irbrc <HOME DIRECTORY>/.irbrc
